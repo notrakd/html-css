@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css  ">
+</head>
+<body>
+    <div class="k1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum assumenda libero! Quia, sit quas? Totam, officiis fugit unde cum aliquam error mollitia necessitatibus exercitationem molestias? Velit eligendi molestias consequuntur?</div>
+    <div class="k2"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum assumenda libero! Quia, sit quas? Totam, officiis fugit unde cum aliquam error mollitia necessitatibus exercitationem molestias? Velit eligendi molestias consequuntur?</div>
+    <div class="k1"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut ipsum assumenda libero! Quia, sit quas? Totam, officiis fugit unde cum aliquam error mollitia necessitatibus exercitationem molestias? Velit eligendi molestias consequuntur?</div>
+
+</body>
+</html>
+
+
+
+*, 
+*::before 
+*::after{ 
+    box-sizing: border-box; 
+} 
+body { 
+    margin: 0; 
+} 
+
+.k1 {width: 200px; height: 100; background-color: brown; display: inline-block;} 
+
+.k2 { 
+    width: 200px; 
+    height: 100;
+    background-color: green;
+    visibility: hidden  ;
+} 
