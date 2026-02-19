@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="a"> </div>
+        <div class="b"> </div>
+        <div class="c"> </div>
+        <div class="d"> </div>
+        <div class="f"> </div>
+        <div class="g"> </div>
+    </div>
+</body>
+</html>
+
+
+
+
+/*  
+
+для flex-direction
+row
+row-reverse
+column
+column-revers */
+
+
+*, 
+*::before 
+*::after{ 
+    box-sizing: border-box; 
+} 
+body { 
+    margin: 0; 
+} 
+
+.container{
+    width: 400px;
+    border: 1px solid darkred;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 5px;
+}
+
+.a{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.b{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+}
+.c{
+    width: 100px;
+    height: 100px;
+    background-color: darkblue;
+}
+.d{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+}
+.f{
+    width: 100px;
+    height: 100px;
+    background-color: honeydew;
+}
+.g{
+    width: 100px;
+    height: 100px;
+    background-color: saddlebrown;
+}
+
